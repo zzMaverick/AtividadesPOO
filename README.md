@@ -91,9 +91,3 @@ Esta é a classe principal que representa a tela de login do usuário.
 - **Login**: Quando o botão "Login" é pressionado, o sistema verifica se o nome de usuário e a senha correspondem a um registro no banco de dados. Se correto, o usuário é redirecionado para uma tela inicial (`UserHome`).
 - **Listar**: O botão "Listar" faz uma consulta ao banco de dados para retornar apenas os nomes dos estudantes e exibe em uma tabela.
 - **Buscar**: O botão "Buscar" exibe todos os dados da tabela estudante em uma tabela na interface gráfica.
-
-## Possíveis Melhorias
-
-- **Tratamento de erros**: Melhorar o tratamento de exceções, por exemplo, exibir mensagens mais amigáveis para o usuário em caso de falhas na conexão com o banco de dados.
-- **Segurança**: A senha dos usuários deveria ser armazenada de forma segura, utilizando hash, em vez de ser armazenada em texto simples.
-- **Interface**: A interface gráfica pode ser melhorada com a adição de mais componentes, como barras de progresso, e uma melhor estrutura visual.
